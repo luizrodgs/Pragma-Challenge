@@ -1,0 +1,4 @@
+name Luiz
+carreira programador
+idade 20
+salario 2000
