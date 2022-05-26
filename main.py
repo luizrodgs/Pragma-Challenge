@@ -2,10 +2,10 @@ from functions import ler_arquivo
 import json
 
 filename = 'Quake.txt'
+id_partida = 0
+partidas = []
+players = []
 
-game = 0
-jogo = dict()
+ler_arquivo(filename, partidas, id_partida, partidas, players)
 
-ler_arquivo(filename, jogo, game)
-
-print(jogo)
+# print(partidas)
