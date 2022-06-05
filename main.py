@@ -1,7 +1,8 @@
-from functions import ler_arquivo
 import json
 
-filename = 'Quake.txt'
+from functions import ler_arquivo
+
+filename = "Quake.txt"
 id_partida = 0
 partidas = []
 players = []
